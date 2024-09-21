@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>კომპიუტერული მაღაზია</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>კომპიუტერული მაღაზია</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">მთავარი</a></li>
+                <li><a href="catalog.html">კატალოგი</a></li>
+                <li><a href="about.html">ჩვენს შესახებ</a></li>
+                <li><a href="contact.html">კონტაქტი</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- index.html -->
+    <section>
+        <h2>მოწვევები!</h2>
+        <p>ჩვენი მაღაზია გთავაზობთ საუკეთესო კომპიუტერებს და აქსესუარებს!</p>
+    </section>
+
+    <!-- catalog.html -->
+    <section>
+        <h2>კატალოგი</h2>
+        <div class="product">
+            <img src="computer1.jpg" alt="კომპიუტერი 1" width="300">
+            <p>კომპიუტერი 1: საუკეთესო პროცესორი და მაღალი შესრულება.</p>
+            <button>დეტალების ნახვა</button>
+        </div>
+        <div class="product">
+            <img src="computer2.jpg" alt="კომპიუტერი 2" width="300">
+            <p>კომპიუტერი 2: იდეალურია თამაშებისთვის.</p>
+            <button>დეტალების ნახვა</button>
+        </div>
+        <!-- მეტი პროდუქტი შეგიძლიათ დაამატოთ -->
+    </section>
+
+    <!-- about.html -->
+    <section>
+        <h2>ჩვენს შესახებ</h2>
+        <p>ჩვენი კომპანიის მიზანია საუკეთესო ტექნოლოგიების შეთავაზება ჩვენს მომხმარებლებს.</p>
+    </section>
+
+    <!-- contact.html -->
+    <section>
+        <h2>კონტაქტი</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">სახელი:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">ემაილი:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">ტელეფონის ნომერი:</label>
+            <input type="tel" id="phone" name="phone">
+            <button type="submit">გაგზავნა</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 კომპიუტერული მაღაზია. ყველა უფლება დაცულია.</p>
+    </footer>
+</body>
+</html>
