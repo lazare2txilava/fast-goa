@@ -128,7 +128,7 @@ forward(50)
 right(90)
 forward(150)
 left(90)
-forward(50)
+forward(50)   
 left(90)
 forward(150)
 right(90)
@@ -152,7 +152,7 @@ forward(150)
 left(90)
 forward(300)
 right(90)
-forward(600)
+forward(300)
 
 
 
