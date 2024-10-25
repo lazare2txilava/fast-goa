@@ -23,7 +23,6 @@ exists = 3 in my_list
 
 
 
-
 my_tuple = (1, 2, 3)
 
 
